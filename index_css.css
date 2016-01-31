@@ -1,0 +1,139 @@
+
+/* Apply 'Montserrat' font to body */
+	  body 
+	  {
+	  font-family: 'Montserrat', sans-serif;
+     }
+	 
+    /* Remove the navbar's default margin-bottom,border & border-radius, apply background-color */ 
+    .navbar {
+      background-color:#F9BF3B;
+	  border:0;
+	  margin-bottom:0;
+	  border-radius:0;
+	 }
+	 
+	 /* align dropdown menu to center when screen size educes */
+	 ul.navbar-right>li>a {text-align:center;}
+	 
+	 /* Remove padding & border of navigation bar at right */
+	 .navbar-nav 
+	 {
+	 padding-top:40px;
+	 border:0px;
+	 }
+	 
+	 /* Increase font size of list items in navigation bar and side navigation */
+	.navbar .nav>li>a, .row .col-sm-2>p>a {
+	font-size:1.4em;
+	}
+	
+	/* Remove text decoration from links on side navigation */
+	.row .col-sm-2 a {
+	text-decoration:none;
+	}
+	
+	/* Settign height, width & padding of image in the navigation bar */
+	.im1 
+	{
+	padding-left:40px;
+	height:100px;
+	width:200px;
+	}
+	
+	/* Set hover  & background-color on drop down menu */
+    .dropdown:hover .dropdown-menu
+	{
+	display: block;
+	background-color:#DCC6E0;
+	}
+	
+	/* Padding on list items on right */
+	.navbar-nav > li 
+	{
+    padding-left:2px;
+    padding-right:2px;
+    }
+	
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 465px}
+    
+    /* Set background color and 100% height */
+    .sidenav
+   	{
+	  padding-top: 20px;
+      background-color:#BFBFBF;
+      height: 100%;
+	}
+	
+	/* Set hover on side nav links */
+	 .sidenav>p>a:hover 
+	{
+	  color:yellow;
+	}
+	 
+	 /* Background color for column on right */
+	 .col-sm-10 
+	{
+	 background-color:#FDE3A7;
+	
+	}
+	
+	/* Set width and float for 2nd image */
+	.im2 
+	{
+	padding-top:4px;
+	float:left;
+	width:170px;
+	margin-left:0px;
+	}
+	
+	/* Padding to the paragraph adjacent to image */
+	.para 
+	{
+	padding-left:10px;
+	padding-top:5px;
+	}
+    
+	/* Set background color,text color height and some padding */
+    footer 
+	{
+	  height:100px;
+      background-color: #93FFFA;
+      color: #1F3A93;
+      padding: 30px;
+	  clear:both;
+	  font-size:1.3em;
+	}
+		
+		
+	/* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) 
+	{
+	
+		.im1 
+		{
+			height:auto;
+		}
+	 
+		.navbar-nav 
+		{
+			padding-top:0px;
+			border:0px;
+		}
+	
+		.sidenav 
+		{
+			height: auto;
+			padding: 15px;
+		}
+    
+		.row.content 
+		{
+			height:auto;
+		} 
+		
+		/* border on menu items on hover when screen size reduces below 767px */
+		ul.navbar-nav>li:hover{border:1px solid red;}
+	}
+	
