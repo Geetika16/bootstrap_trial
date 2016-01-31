@@ -133,6 +133,7 @@
 			height:auto;
 		} 
 		
+		
 		/* border on menu items on hover when screen size reduces below 767px */
 		ul.navbar-nav>li:hover{border:1px solid red;}
 	}
