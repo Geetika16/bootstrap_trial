@@ -7,7 +7,7 @@
 	 
     /* Remove the navbar's default margin-bottom,border & border-radius, apply background-color */ 
     .navbar {
-      background-color:#F9BF3B;
+      background-color:#C5EFF7;
 	  border:0;
 	  margin-bottom:0;
 	  border-radius:0;
@@ -62,8 +62,9 @@
     .sidenav
    	{
 	  padding-top: 20px;
-      background-color:#BFBFBF;
+      background-color:#E4F8F7;
       height: 100%;
+	  
 	}
 	
 	/* Set hover on side nav links */
@@ -72,12 +73,7 @@
 	  color:yellow;
 	}
 	 
-	 /* Background color for column on right */
-	 .col-sm-10 
-	{
-	 background-color:#FDE3A7;
-	
-	}
+	.gly a{float:right;}
 	
 	/* Set width and float for 2nd image */
 	.im2 
@@ -99,14 +95,14 @@
     footer 
 	{
 	  height:100px;
-      background-color: #93FFFA;
+      background-color: #C5EFF7;
       color: #1F3A93;
       padding: 30px;
 	  clear:both;
 	  font-size:1.3em;
 	}
 		
-		
+			
 	/* On small screens, set height to 'auto' for sidenav and grid */
     @media screen and (max-width: 767px) 
 	{
@@ -132,9 +128,9 @@
 		{
 			height:auto;
 		} 
-		
-		
+			
 		/* border on menu items on hover when screen size reduces below 767px */
 		ul.navbar-nav>li:hover{border:1px solid red;}
+		
 	}
 	
